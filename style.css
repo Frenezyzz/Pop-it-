@@ -1,0 +1,606 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 25px;
+}
+/* HEADER */
+header{
+       
+    
+    
+}
+/* NAVBAR */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 60px 0 60px;
+    background-image: url(../images/background.png);
+    
+    
+}
+
+.navbar a{
+    color: black;
+    font-size: 24px;
+    
+}
+.navbar__right{
+    display: flex;
+    
+    width: 100%;
+    
+}
+.navbar__right__buttons +a{
+    padding: 0 60px 0 0;
+}
+.navbar__right__buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar-buttons__right{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+}
+.navbar__right__buttons li{
+    list-style: none;
+    color: black;
+    padding: 10px;
+    padding-right: 10px;
+    
+}
+.navbar__right__buttons li a{
+    
+    color: black;
+    
+    
+}
+.main-container-first{
+    display: flex;
+    
+    width: 100%;
+    flex-direction: column;
+    margin-right: 0px;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    
+    background-size: 1000%;
+}
+.main-container-first__presentation{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/background.png);
+    width: 100%;
+    height: 100%;
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    padding-bottom: 20rem;
+    
+}
+.main-container-first__presentation h1{
+    margin-left: 60px;
+    margin-top: 150px;
+    
+    color: white;
+    font-size:150px;
+}
+.main-container-first__presentation p{
+    margin-left: 60px;
+    
+    
+    color: white;
+    
+}
+
+.main-container-first__presentation a{
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 50px;
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size:30px;
+    font-weight: 700;
+    border: 10px;
+    background-color:rgb(132, 214, 187);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 115px;
+    text-decoration: none;
+}
+
+.main-container-first__presentation a:hover{
+    background-color:transparent;
+    color:white;
+
+}
+
+.main-container-second{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 60px;
+    width: 100%;
+}
+
+.main-container-second__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.main-container-second__description h2{
+    
+    margin-bottom: 20px;
+    
+}
+/*stock*/
+.main-container-third{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(132, 214, 187);
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    
+}
+
+
+.main-container-third-stock{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+.stock-container-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:33%;
+    
+    
+    
+}
+.stock-container-item__picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height: 100%;
+    justify-content: space-between;
+    
+}
+.stock-item__img{
+    width: 200px;
+    
+}
+
+.stock-item__caption{
+    margin: 15px 0;
+    font-size:2rem;
+    
+}
+
+.stock-item__button{
+    
+    height:20%;
+    width: 35%;
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size:30px;
+    font-weight: 700;
+    border: 10px;
+    background-image: url(/images/bg-grid.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top: 5px;
+    
+    
+}
+.stock-item__button:hover{
+    background-color:transparent;
+    color:white;
+
+
+}
+/*how to play*/
+.main-container-fourth{
+    display:flex;
+    
+    width: 100%;
+    background-image: url(/images/bg-grid.png);
+
+    margin: 80px 0 60px 0;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 40% 70%;
+    padding: 20px 0 80px 60px;
+    
+}
+
+.main-container-fourth-howtoplay{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+
+}
+.howtoplay__rules{
+    padding-top:80px;
+}
+.howtoplay__rules h2{
+    
+    margin-bottom: 20px;
+}
+
+.howtoplay__rules p{
+    
+    margin-bottom: 20px;
+}
+.howtoplay__img img{
+    width: 30%;
+    position: absolute;
+    right:6%;
+}
+.footer-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0 0 0 60px;
+    background-color: black;
+    
+}
+
+.footer-container ul{
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+
+}
+
+.footer-container  ul li{
+    list-style: none;
+    padding: 1rem;
+    padding-right: 5rem;
+    float: left;
+}
+
+.footer-container  ul li a{
+    color: white;
+}
+@media screen and (max-width: 768px){
+    /* HEADER */
+    .navbar{
+        padding:0;
+        
+        flex-direction: column;
+        height:50vh;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .navbar__right{
+        height: 100%;
+        
+        
+    }
+    .navbar__right__buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .navbar-buttons__right{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /*MAIN*/
+    .main-container-first{
+        
+        width:100%;
+
+    }
+    .main-container-first__presentation{
+        width:100%;
+        background-size: 500px;
+        background-position: left;
+    }
+    .main-container-second__description h2{
+    
+        text-align: center;
+        
+    }
+
+    
+   
+    .stock-item__caption{
+        margin: 15px 0;
+        font-size:2rem;
+        text-align: center;
+    }
+    .stock-item__img{
+        width: 50%;
+        
+    }
+    .stock-item__button{
+        
+        height:35%;
+        width: 80%;
+        font-size: 1.5rem;
+        text-align: center;
+        
+    }
+    
+    .howtoplay__rules p{
+        
+        
+        padding-right: 60px;
+        
+    }
+
+    .footer-container ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-container ul li a{
+        font-size: 1.5rem;
+    }
+}
+/*MAIN*/
+
+
+
+/* MAIN 
+.main-container-first{
+    display: flex;
+    background-color: orangered;
+    width: 100%;
+    flex-direction: column;
+    margin-right: 0px;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    
+    background-size: 1000%;
+}
+.main-container-first__presentation{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/background.png);
+    width: 100%;
+    height: 100%;
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    padding-bottom: 20rem;
+    
+}
+.main-container-first__presentation h1{
+    margin-left: 60px;
+    margin-top: 150px;
+    
+    color: white;
+    font-size:150px;
+}
+.main-container-first__presentation p{
+    margin-left: 60px;
+    
+    
+    color: white;
+    
+}
+
+.main-container-first__presentation a{
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 50px;
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size:30px;
+    font-weight: 700;
+    border: 10px;
+    background-color:rgb(132, 214, 187);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 115px;
+    text-decoration: none;
+}
+
+.main-container-first__presentation a:hover{
+    background-color:transparent;
+    color:white;
+
+}
+
+.main-container-second{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0;
+    
+}
+
+.main-container-second__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.main-container-second__description h2{
+    
+    margin-bottom: 20px;
+    
+}
+
+.main-container-third{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(132, 214, 187);
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    
+}
+
+
+.main-container-third-stock{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+.stock-container-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:33%;
+    
+    
+    
+}
+.stock-container-item__picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    
+    
+    
+}
+.stock-item__img{
+    width: 200px;
+    
+}
+
+.stock-item__caption{
+    margin: 15px 0;
+    font-size:2rem;
+    
+}
+
+.stock-item__button{
+    
+    height:40px;
+    width: 150px;
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size:30px;
+    font-weight: 700;
+    border: 10px;
+    background-image: url(/images/bg-grid.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top: 5px;
+    
+    
+}
+.stock-item__button:hover{
+    background-color:transparent;
+    color:white;
+
+}
+
+.main-container-fourth{
+    display:flex;
+    
+    width: 100%;
+    background-image: url(/images/bg-grid.png);
+
+    margin: 80px 0 60px 0;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 40% 70%;
+    padding: 20px 0 80px 60px;
+    
+}
+
+.main-container-fourth-howtoplay{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+
+}
+.howtoplay__rules{
+    padding-top:80px;
+}
+.howtoplay__rules h2{
+    
+    margin-bottom: 20px;
+}
+
+.howtoplay__rules p{
+    
+    margin-bottom: 20px;
+}
+.howtoplay__img img{
+    width: 30%;
+    position: absolute;
+    right:6%;
+}
+
+footer{
+    background-color:rgb(24, 20, 20);
+}
+
+.footer-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0 0 0 60px
+    
+    
+}
+
+.footer-container ul{
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+
+}
+
+.footer-container  ul li{
+    list-style: none;
+    padding: 1rem;
+    padding-right: 5rem;
+    float: left;
+}
+
+.footer-container  ul li a{
+    color: white;
+}
+
+
+
+*/
